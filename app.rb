@@ -3,5 +3,5 @@ require "sendgrid-ruby"
 
 
 get "/" do
-  "Cake"
+  erb :home
 end
