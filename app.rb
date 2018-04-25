@@ -6,6 +6,18 @@ get "/" do
   erb :home
 end
 
+get "/muffins" do
+  erb :muffins
+end
+
+get "/cookies" do
+  erb :cookies
+end
+
+get "/cupcakes" do
+  erb :cupcakes
+end
+
 post "/" do
 p	params.inspect
 

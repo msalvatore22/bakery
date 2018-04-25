@@ -6,19 +6,44 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="main.css" />
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
   <title>Top Muffin</title>
 </head>
 <body>
-  <header>
   
-  </header>
+    <div class="valign-wrapper">
+      <nav>
+        <div class="nav-wrapper teal accent-2">
+          <a href="/" class="brand-logo center"><img src="images/muffin.png" alt="muffin"></a>
+          <ul class="left hide-on-med-and-down">
+            <li class="home-li"><a href="/" class="waves-effect waves-light btn">Home</a></li>
+            <li><a href="/muffins" class="waves-effect waves-light btn">Muffins</a></li>
+            <li class="cookies-li"><a href="/cookies" class="waves-effect waves-light btn">Cookies</a></li>
+            <li><a href="/cupcakes" class="center-align waves-effect waves-light btn">Cupcakes</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
 
   <%= yield %>
 
-  <footer>
-   
+  <footer class="row">
+    <form class="col s2 offset-s5" method="post" class="contact-form">
+      <div>
+        <label class="label-name">Name</label>
+        <input type="text" name="name" id="name" placeholder="your name" required>
+      </div>
+      <div>
+	  	  <label>email</label>
+		    <input type="email" name="email" id="email" placeholder="your email" required>		
+      </div>
+      <div>
+        <input type="submit" value="send it">
+      </div>
+    </form>
   </footer>
 </body>
 </html>

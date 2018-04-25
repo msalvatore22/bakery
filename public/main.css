@@ -7,3 +7,10 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+footer {
+  height: 10%;
+  background-color: rgb(100, 223, 182);
+  color: rgb(215, 232, 247);
+}
+
+
