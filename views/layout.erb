@@ -9,30 +9,28 @@
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <link type="text/css" rel="stylesheet" href="main.css" />
-  <script type="text/javascript" src="main.js"></script>
+  
   <title>Top Muffin</title>
 </head>
 <body>
-  
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper teal accent-2">
-          <a href="/" class="brand-logo right"><img src="images/muffin(1).png" alt="muffin"></a>
-          <ul class="hide-on-med-and-down">
-            <li><a href="/" class="waves-effect waves-light btn orange darken-1">Home</a></li>
-            <li><a href="/muffins" class="waves-effect waves-light btn orange darken-1">Muffins</a></li>
-            <li><a href="/cupcakes" class="center-align waves-effect waves-light btn orange darken-1">Cupcakes</a></li>
-            <li><a href="/cookies" class="waves-effect waves-light btn orange darken-1">Cookies</a></li>
-            <li><a href="/cakes" class="center-align waves-effect waves-light btn orange darken-1">Cakes</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper teal accent-2">
+        <a href="/" class="brand-logo right"><img src="images/muffin(1).png" alt="muffin"></a>
+        <ul class="hide-on-med-and-down">
+          <li><a href="/" class="waves-effect waves-light btn orange darken-1">Home</a></li>
+          <li><a href="/muffins" class="waves-effect waves-light btn orange darken-1">Muffins</a></li>
+          <li><a href="/cupcakes" class="center-align waves-effect waves-light btn orange darken-1">Cupcakes</a></li>
+          <li><a href="/cookies" class="waves-effect waves-light btn orange darken-1">Cookies</a></li>
+          <li><a href="/cakes" class="center-align waves-effect waves-light btn orange darken-1">Cakes</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
   <%= yield %>
 
   
-
+<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
