@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="icon" href="images/muffin.png" type="image" sizes="16x16">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  
+  
   <link type="text/css" rel="stylesheet" href="main.css" />
   
   <title>Top Muffin</title>
 </head>
 <body>
-  <div class="navbar-fixed">
+  <div>
     <nav>
       <div class="nav-wrapper teal accent-2">
         <a href="/" class="brand-logo right"><img src="images/muffin(1).png" alt="muffin"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="hide-on-med-and-down">
           <li><a href="/" class="waves-effect waves-light btn orange darken-1">Home</a></li>
           <li><a href="/muffins" class="waves-effect waves-light btn orange darken-1">Muffins</a></li>
@@ -26,11 +29,18 @@
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a class="orange-text text-darken-1" href="/">Home</a></li>
+      <li><a class="orange-text text-darken-1" href="/muffins">Muffins</a></li>
+      <li><a class="orange-text text-darken-1" href="/cupcakes">Cupcakes</a></li>
+      <li><a class="orange-text text-darken-1" href="/cookies">Cookies</a></li>
+      <li><a class="orange-text text-darken-1" href="/cakes">Cakes</a></li>
+    </ul>
   </div>
 
   <%= yield %>
 
-  
-<script type="text/javascript" src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script> 
+<script src="js/main.js"></script>
 </body>
 </html>
