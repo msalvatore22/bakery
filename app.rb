@@ -18,6 +18,10 @@ get "/cupcakes" do
   erb :cupcakes
 end
 
+get "/cakes" do
+  erb :cakes
+end
+
 post "/" do
 p	params.inspect
 
