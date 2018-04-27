@@ -64,7 +64,7 @@ content = Content.new(type: 'text/html', value: "
 </ul>
 <h3>Cakes</h3>
 <ul>
-	<li>Chocolat Mousse Cake | $18.00</li>
+	<li>Chocolate Mousse Cake | $18.00</li>
 	<li>Strawberry Short-Cake | $22.00</li>
 	<li>Carrot Cake | $18.00</li>
 	<li>Tiramisu | $24.00</li>
