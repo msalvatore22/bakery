@@ -59,7 +59,7 @@ content = Content.new(type: 'text/html', value: "
 	<li>Double Chocolate Chip | $2.50</li>
 	<li>Peanut Butter Chocolate | $2.50</li>
 	<li>Peanut Butter | $2.50</li>
-	<li>M&ampM | $2.50</li>
+	<li>M&M | $2.50</li>
 	<li>Oatmeal | $2.50</li>
 </ul>
 <h3>Cakes</h3>
